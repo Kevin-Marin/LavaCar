@@ -15,5 +15,6 @@ const app = e();
 app.use(e.json())
 
 app.use("/cliente", cliente_router)
+app.use("/veiculo", veiculo_router)
 
 app.listen(process.env.API_PORT)
